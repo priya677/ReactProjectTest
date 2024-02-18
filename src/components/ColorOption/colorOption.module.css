@@ -1,0 +1,7 @@
+.ColorContainer {
+	width: 2rem;
+	height: 34px;
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+}

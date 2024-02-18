@@ -1,0 +1,66 @@
+.modalSection {
+	background-color: white;
+	padding: 1rem 2rem;
+	border-radius: 15px;
+}
+
+.Form {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	gap: 2rem;
+}
+
+.label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+.GroupNameContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.ErrorMessage {
+	color: red;
+	font-size: 0.8rem;
+}
+
+.input {
+	width: 20rem;
+	border: 1px solid rgb(181, 179, 179);
+	padding: 0.4rem 0.5rem;
+	border-radius: 15px;
+	color: #292929;
+	outline: none;
+	font-size: 1rem;
+	background-color: white;
+}
+
+.colorOptionsSection {
+	display: flex;
+	gap: 0.5rem;
+}
+/*Button stylr*/
+
+.createButtonContainer {
+	text-align: end;
+	width: 100%;
+}
+
+.createButton {
+	padding: 0.3rem 34px;
+	background-color: #001f8b;
+}
+
+/* media queries */
+
+@media screen and (max-width: 760px) {
+	.input {
+		width: 12rem;
+	}
+}

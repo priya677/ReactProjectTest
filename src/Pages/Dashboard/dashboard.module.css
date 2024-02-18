@@ -1,0 +1,58 @@
+main {
+	position: relative;
+}
+
+.TopSection {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+.leftContainer {
+	flex: 3;
+	position: relative;
+	background-color: white;
+}
+
+.RightContainer {
+	flex: 7;
+	background-color: #dae5f5;
+}
+
+.addButton {
+	background-color: blue;
+	position: absolute;
+	bottom: 2rem;
+	right: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1rem;
+	padding: 1rem;
+	border-radius: 50%;
+	color: white;
+	cursor: pointer;
+}
+
+.ModalContainer {
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.355);
+	width: 100%;
+	height: 100%;
+	backdrop-filter: blur(9px);
+}
+
+@media screen and (max-width: 760px) {
+	.addButton {
+		bottom: 6rem;
+	}
+
+	.modalContainer {
+		align-items: start;
+		padding-top: 7rem;
+	}
+}

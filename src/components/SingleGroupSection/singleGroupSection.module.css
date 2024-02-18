@@ -1,0 +1,15 @@
+.mainContainer {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 2rem;
+	width: 80%;
+	border-bottom: 1px solid #00000038;
+	cursor: pointer;
+}
+
+.Name {
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}

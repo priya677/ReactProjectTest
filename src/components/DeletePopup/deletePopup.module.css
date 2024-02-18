@@ -1,0 +1,49 @@
+.modalContainer {
+	background-color: white;
+	padding: 2rem;
+	border-radius: 15px;
+}
+
+.ButtonContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	text-align: end;
+	width: 100%;
+}
+
+.Heading {
+	font-size: 13px;
+}
+/*BUtton styling*/
+
+.CreateButton {
+	padding: 0.3rem 2rem;
+	background-color: #ca2222;
+	color: #ffffff;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.CancelButton {
+	padding: 0.3rem 2rem;
+	background-color: transparent;
+	color: #000000;
+	outline: none;
+	border: 1px solid #001f8b;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+/* Screen media queries */
+
+@media screen and (max-width: 760px) {
+	.modalContainer {
+		padding: 1rem;
+	}
+
+	.heading {
+		font-size: 1rem;
+	}
+}

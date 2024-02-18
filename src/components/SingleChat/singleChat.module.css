@@ -1,0 +1,89 @@
+.chatContainer {
+	width: 60vw;
+	height: auto;
+	border-radius: 10px;
+	padding: 1rem;
+	word-wrap: break-word;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.171);
+}
+.Note {
+	font-size: 15px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	position: relative;
+}
+
+.copyButton {
+	font-size: 1.5rem;
+	color: 001f8b;
+	cursor: pointer;
+}
+
+.copyMessage {
+	position: absolute;
+	top: 2rem;
+
+	font-size: 0.8rem;
+}
+.editButton {
+	font-size: 1.4rem;
+	color: 001f8b;
+	cursor: pointer;
+}
+
+.TextSection{
+	width: 90%;
+	resize: none;
+	padding: 0.5rem 1rem;
+	border: 1px solid rgb(181, 179, 179);
+	border-radius: 15px;
+	color: #292929;
+	outline: none;
+	font-size: 1rem;
+	font-family: 'roboto', 'arial';
+	background-color: white;
+	overflow-y: 'auto';
+}
+/*button styling */
+.saveButton {
+	font-size: 1.4rem;
+	color: Blue;
+	cursor: pointer;
+}
+.deleteButton {
+	font-size: 1.4rem;
+	color: #ca2222;
+	cursor: pointer;
+}
+
+.actionContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.NoteDetails {
+	display: flex;
+	gap: 1rem;
+	justify-content: end;
+	align-items: center;
+	font-size: 0.8rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 780px) {
+	.actionContainer {
+		gap: 1.5rem;
+	}
+
+	.buttons {
+		gap: 0.5rem;
+	}
+}

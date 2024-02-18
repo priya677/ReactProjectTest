@@ -1,0 +1,35 @@
+.HeadContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.ImageContainer {
+	width: 40%;
+	height: auto;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.heading {
+	font-size: 30px;
+	font-size: 20px;
+}
+
+.infoNote {
+	width: 50%;
+	text-align: center;
+}
+.secureNote {
+	position: absolute;
+	bottom: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
